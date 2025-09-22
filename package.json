@@ -1,0 +1,21 @@
+{
+  "name": "archtdesignstdbackend",
+  "version": "1.0.0",
+  "description": "This is the backend of an archtdesign website built using Node.js, Express, and MongoDB. It provides APIs for user authentication,  project management, and payment integration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "mongoose-aggregate-paginate-v2": "^1.1.4"
+  },
+  "author": "karan",
+  "license": "ISC"
+}
